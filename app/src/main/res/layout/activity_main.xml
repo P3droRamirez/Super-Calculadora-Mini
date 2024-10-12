@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/labelnum1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/labelNumero1"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtNum1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/labelNum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/labelNumero2"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtNum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/labelResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorResultadoFinal"
+        android:textSize="48sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSumar"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorBotonesOperadores"
+            android:text="@string/btnSumar"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:cornerRadius="50dp" />
+
+        <Button
+            android:id="@+id/btnRestar"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorBotonesOperadores"
+            android:text="@string/btnRestar"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:cornerRadius="50dp" />
+
+        <Button
+            android:id="@+id/btnMultiplicar"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorBotonesOperadores"
+            android:text="@string/btnMultiplicar"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:cornerRadius="50dp" />
+
+        <Button
+            android:id="@+id/btnDividir"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorBotonesOperadores"
+            android:text="@string/btnDividir"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:cornerRadius="50dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/colorBotonBorrar"
+        android:text="@string/btnBorrar"
+        android:textColorHint="@color/colorBotonBorrar"
+        android:textColorLink="@color/colorBotonBorrar"
+        app:cornerRadius="1dp" />
+
+</LinearLayout>

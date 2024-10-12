@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Supermini Calculadora Repaso</string>
+    <string name="labelNumero1"> Número 1: </string>
+    <string name="labelNumero2"> Número 2:</string>
+    <string name="btnSumar"> + </string>
+    <string name="btnRestar"> - </string>
+    <string name="btnMultiplicar"> X </string>
+    <string name="btnDividir"> / </string>
+    <string name="btnBorrar"> BORRAR </string>
+</resources>
